@@ -34,12 +34,11 @@ function HeroSection() {
   return (
     <div className="container">
       <div className="title__text">anime quote generator</div>
-      <div className="side__image">image</div>
+      <div className="side__image">
+        <img src="../public/Rectangle.png" alt="palece" />
+      </div>
       <div className="main__image">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-        praesentium veritatis eum non, corrupti at id cupiditate eveniet
-        excepturi molestias. Laborum deleniti magni illum dignissimos quo
-        cupiditate ratione fugit eveniet.
+        <img src="../public/Rectangle 2.png" alt="palece" />
       </div>
       <div className="rounded__text">
         <div className="inner__image"></div>
