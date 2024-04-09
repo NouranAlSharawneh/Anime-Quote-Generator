@@ -24,7 +24,7 @@ function HeroSection() {
         .split("")
         .map(
           (char, i) => `<span 
-        style="transform:rotate(${i * 9}deg)">${char}</span>`
+        style="transform:rotate(${i * 8}deg)">${char}</span>`
         )
         .join("");
       textNode.innerHTML = modifiedText;
@@ -43,7 +43,7 @@ function HeroSection() {
       </div>
       <div className="rounded__text">
         <div className="inner__image"></div>
-        <p ref={textRef}>- Anime Quote Generator - Platform - </p>
+        <p ref={textRef}>Anime Quote Generator - Get a Randam Quote - </p>
       </div>
       <div className="quote__text">quote text</div>
     </div>
