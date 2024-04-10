@@ -172,9 +172,9 @@ header.menu-open {
 .container {
   padding: 3em 2em 0 2em;
   display: grid;
-  height: max-content;
+  height: 90vh;
   grid-template-columns: 2fr 0.5fr 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-rows: 2fr 0.5fr 1.5fr;
   grid-template-areas:
     "mainText mainText sideImage"
     "mainImage roundText sideImage"
@@ -198,8 +198,8 @@ header.menu-open {
 }
 
 .side__image img {
-  height: 25em;
-  margin-left: -4em;
+  height: 23em;
+  margin-left: -2em;
 }
 
 .main__image {
@@ -208,10 +208,11 @@ header.menu-open {
   grid-area: mainImage;
 }
 .main__image img {
-  height: 20em;
+  height: 19em;
 }
 
 .rounded__text {
+  cursor: pointer;
   margin-top: -7em;
   margin-left: -9em;
   justify-content: center;
@@ -258,11 +259,39 @@ header.menu-open {
 }
 
 .quote__text {
+  z-index: 100;
   background-color: white;
   grid-area: quoteText;
   border: 1px solid black;
   width: 53em;
   margin-left: -15em;
+}
+
+.quote__text h3 {
+  padding: 0.2em 2em 0.3em 0.2em;
+  border: 1px solid black;
+  z-index: 0;
+  position: absolute;
+  background-color: white;
+  margin-top: -2em;
+}
+
+.quote__text p {
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 0.2em 0em 0 0.3em;
+}
+
+.quote__text p span {
+  font-style: italic;
+}
+
+.quote__text button {
+  margin: 1em 1em 0 0;
+  background-color: var(--accent--color);
+  border: none;
+  padding: 1em 1.5em;
+  align-items: end;
 }
 
 @media only screen and (max-width: 750px) {
