@@ -156,6 +156,9 @@ header.menu-open {
     padding-right: 0px;
   }
 
+  .links a:hover {
+    color: var(--accent--color);
+  }
   ul li {
     padding: 1em 0;
   }
@@ -287,6 +290,7 @@ header.menu-open {
 }
 
 .quote__text button {
+  cursor: pointer;
   margin: 1em 1em 0 0;
   background-color: var(--accent--color);
   border: none;
