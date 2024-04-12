@@ -299,19 +299,57 @@ header.menu-open {
 }
 
 @media only screen and (max-width: 750px) {
+  section {
+    height: 100dvh;
+  }
   .container {
+    height: 80vh;
+    padding: 0 3em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    place-self: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 2.5fr;
     grid-template-areas:
       "mainText"
       "mainImage"
-      "quoteText "
-      "roundText"
-      "sideImage";
+      "quoteText";
+    gap: 5em;
   }
 
   .title__text {
     font-size: 3.5em;
-    text-wrap: wrap;
+    width: 6em;
+  }
+
+  .main__image {
+    margin-top: -3em;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main__image img {
+    height: 13em;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .rounded__text {
+    display: none;
+  }
+
+  .side__image {
+    display: none;
+  }
+
+  .quote__text p {
+    padding: 0 1em;
+  }
+  .quote__text {
+    display: block;
+    width: 21em;
+    margin-left: 0em;
   }
 }
