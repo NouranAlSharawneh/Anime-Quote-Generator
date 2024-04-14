@@ -14,7 +14,7 @@ export function NavBar() {
 
   return (
     <header>
-      <div className="logo">nunu quotable&apos;s🎔</div>
+      <div className="logo">nunu quotable&apos;s🖤</div>
       <nav className={`links ${showMenu ? "show" : ""}`}>
         <ul>
           <li>

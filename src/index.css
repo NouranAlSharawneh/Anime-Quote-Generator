@@ -290,6 +290,7 @@ header.menu-open {
 }
 
 .quote__text button {
+  color: black;
   cursor: pointer;
   margin: 1em 1em 0 0;
   background-color: var(--accent--color);
@@ -350,6 +351,7 @@ header.menu-open {
 
   .quote__text p {
     padding: 0 1em;
+    font-size: 1em;
   }
   .quote__text {
     display: block;
