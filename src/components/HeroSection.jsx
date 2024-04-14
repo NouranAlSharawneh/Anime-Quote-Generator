@@ -45,7 +45,7 @@ export function HeroSection() {
         <img src="/public/assets/palece.png" alt="palece" />
       </div>
       <div className="main__image">
-        <img src="/public/assets/animegirl.png" alt="anime girl" />
+        <img src="/public/animegirl.png" alt="anime girl" />
       </div>
       <div className="rounded__text">
         <div className="inner__image"></div>
