@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import animegirl from "../../public/assets/animegirl.png";
+import palece from "../../public/assets/palece.png";
 
 export function HeroSection() {
   const textRef = useRef(null);
@@ -43,7 +44,7 @@ export function HeroSection() {
     <div className="container">
       <div className="title__text">anime quote generator</div>
       <div className="side__image">
-        <img src="/public/assets/palece.png" alt="palece" />
+        <img src={palece} alt="palece" />
       </div>
       <div className="main__image">
         <img src={animegirl} alt="anime girl" />
